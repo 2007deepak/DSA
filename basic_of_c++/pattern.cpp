@@ -57,14 +57,28 @@ int main() {
             // 1234
             // 12345
             
-        for(int i = 0; i< 5; i++){
-            for(int j = 0; j< i+1; j++)
-            {
-                cout<<j+1;
-            }
-            cout << endl;
-        }
+        // for(int i = 0; i< 5; i++){
+        //     for(int j = 0; j< i+1; j++)
+        //     {
+        //         cout<<j+1;
+        //     }
+        //     cout << endl;
+        // }
 
+        // pattern 5
+            // 1
+            // 22
+            // 333
+            // 4444
+            // 55555
+
+            for(int i= 0; i< 5; i++){
+                for(int j =0; j<i+1; j++)
+                {
+                    cout<< i+1;
+                }
+                cout << endl;
+            }
         
 
 

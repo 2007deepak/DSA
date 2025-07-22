@@ -87,12 +87,35 @@ int main() {
             // 123
             // 12
             // 1
-            for(int i = 5; i>0; i--){
-                for(int j = 1; j<=i; j++){
-                    cout << j;
+
+            // for(int i = 5; i>0; i--){
+            //     for(int j = 1; j<=i; j++){
+            //         cout << j;
+            //     }
+            //        cout << endl;
+                
+            // }
+            
+          // pattern 7
+            // *  *  *  * 
+            // *      *
+            // *    *
+            // *  *
+            // *
+            for(int i =0; i<5; i++){
+
+            for( int j=0 ; j<5-1; j++){
+                if(i==0 || j==0 || j== 5-i-1 ){
+                    cout << " * ";
                 }
-                   cout << endl;
+                else{
+                    cout << "  ";              
+                }
                 
             }
+             cout << endl; 
+          }
+         
+           
          
 }
